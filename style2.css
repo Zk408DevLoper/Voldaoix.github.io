@@ -1,0 +1,50 @@
+body{
+    background: #1c1e23;
+    background-clip: border-box;
+}
+h1{
+    font-family: "Lemon", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+li, a{
+    font-family: "Lemon", sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+}
+/*
+    FONTS
+*/
+@font-face {
+    font-family: Lemon;
+    src: url(Fonts/Lemon.ttf) format('truetype');
+}
+
+.Minecraft li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.Minecraft li a{
+    transition:  all 0.3s ease 0s;
+}
+
+.Minecraft li a:hover {
+    color: #1c1e23;
+}
+
+b{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.Minecraft{
+    list-style: none;
+}

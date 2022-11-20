@@ -1,0 +1,58 @@
+body{
+    background: #1c1e23;
+    background-clip: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+h1{
+    font-family: "Lemon", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+li, a{
+    font-family: "Lemon", sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+}
+bi {
+    font-family: "Lemon", sans-serif;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 50px;
+    padding: 645px;
+    padding-top: 70px;
+}
+@font-face {
+    font-family: Lemon;
+    src: url(Fonts/Lemon.ttf) format('truetype');
+}
+
+.Minecraft li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.Minecraft li a{
+    transition:  all 0.3s ease 0s;
+}
+
+.Minecraft li a:hover {
+    color: #1c1e23;
+}
+
+b{
+    padding: 9px 25px;
+    cursor: pointer;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.Minecraft{
+    list-style: none;
+}
